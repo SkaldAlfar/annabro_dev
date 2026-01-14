@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cyberpunk Terminal Resume</title>
+    <link rel="stylesheet" href="style.css">
+</body>
+
+<div style="display: flex; width: 100vw; height: 100vh; justify-content: center; align-items: center;">
+  <div class="modules-section" style="margin-right: 50px; margin-left: 0;">
+    <div class="top-bar" style="background: #FF00FF;">Experience</div>
+    <div class="module" style="background-image: url('assets/exp1.jpg');">
+      <div class="module-title">Software Engineer, ACME Corp</div>
+      <div class="module-desc">Developed scalable cloud solutions and led a team of 5 engineers.</div>
+    </div>
+    <div class="module" style="background-image: url('assets/gif.gif');">
+      <div class="module-title">MIT Cybersecurity Courseware</div>
+      <div class="module-desc">A smart chatbot module for interactive resumes and personal branding.</div>
+    </div>
+    <div class="module" style="background-image: url('assets/exp3.jpg');">
+      <div class="module-title">Game Master, Tabletop RPGs</div>
+      <div class="module-desc">Created immersive storylines and managed player experiences.</div>
+    </div>
+  </div>
+  <div class="terminal" id="terminal">
+    <div class="top-bar">Anna Brogowski's Online Resume</div>
+    <div class="output" id="welcome">Welcome, User. Available commands: <br>skills, experience, education, awards, projects<br>Type "help" to see this message again.</div>
+    <div class="input-line">
+      <span class="prompt">&gt;</span>
+      <input type="text" id="commandInput" autofocus />
+    </div>
+  </div>
+  <div class="modules-section">
+    <div class="top-bar" style="background: #ff1111;">Projects</div>
+    <div class="module" style="background-image: url('assets/LoopSatisfyingGIFbyIndieRocktopus.gif');">
+      <div class="module-title">NASA Vertical Solar Array Technology (VSAT) Controller</div>
+      <div class="module-desc">A showcase of neon-lit web projects inspired by futuristic aesthetics.</div>
+    </div>
+    <div class="module" style="background-image: url('assets/Aquarium_Glow_GIF_by_PERFECTL00P.gif');">
+      <div class="module-title">VT Hunt Puzzle Society</div>
+      <div class="module-desc">Custom mods for cyberpunk-themed games, enhancing user experience.</div>
+    </div>
+    <div class="module" style="background-image: url('assets/User Interface Scifi GIF by IndieRocktopus.gif');">
+      <div class="module-title">Tabletop RPG Game Master</div>
+      <div class="module-desc">A smart chatbot module for interactive resumes and personal branding.</div>
+    </div>
+  </div>
+</div>
+
+<script src="scripts/terminal.js"></script>
+<script src="scripts/find_user.js"></script>
+</body>
+</html>
