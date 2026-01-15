@@ -1,3 +1,5 @@
+# Netlify configuration for Next.js
+
 [build]
   command = "npm run build"
   publish = ".next"
