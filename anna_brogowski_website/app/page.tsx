@@ -11,7 +11,7 @@ export default function Home() {
         <div className="flex justify-end items-center px-4 sm:px-8 py-4 sm:py-6">
           <div className="flex gap-4 sm:gap-6">
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/anna-brogowski/"
               target="_blank" 
               rel="noopener noreferrer"
               className="text-white hover:text-[#fee801] transition-colors"
@@ -20,7 +20,7 @@ export default function Home() {
               <Linkedin size={28} className="sm:w-[45px] sm:h-[45px]" />
             </a>
             <a 
-              href="mailto:anna@example.com"
+              href="mailto:annabrogowski.d20@gmail.com"
               className="text-white hover:text-[#fee801] transition-colors"
               aria-label="Email"
             >
@@ -118,7 +118,7 @@ export default function Home() {
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ros/ros-original.svg" alt="ROS" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
+              <img src="https://www.highvail.com/wp-content/uploads/2020/04/AWS-Logo-halfwhite.png" alt="AWS" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datadog/datadog-original.svg" alt="DataDog" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block invert" />
               <img src="https://docs.temporal.io/img/favicon.png" alt="Temporal" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
@@ -131,7 +131,7 @@ export default function Home() {
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ros/ros-original.svg" alt="ROS" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
+              <img src="https://www.highvail.com/wp-content/uploads/2020/04/AWS-Logo-halfwhite.png" alt="AWS" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datadog/datadog-original.svg" alt="DataDog" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block invert" />
               <img src="https://docs.temporal.io/img/favicon.png" alt="Temporal" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
@@ -156,7 +156,7 @@ export default function Home() {
               <div className="flex flex-col items-center text-center">
                 <Puzzle size={120} className="text-[#ffffff] mb-4 sm:mb-6 sm:w-60 sm:h-60" strokeWidth={1.5} />
                 <p className="text-white text-base sm:text-lg leading-relaxed px-4">
-                  VT Hunt<br />Developed interactive puzzles using Arduino and NVIDIA Jetson Nano for machine learning real-time object recognition challenges. Supported event logistics and puzzle deployment for over 500 participants annually.
+                  <em>VT Hunt</em><br />Developed interactive puzzles using Arduino and NVIDIA Jetson Nano for machine learning real-time object recognition challenges. Supported event logistics and puzzle deployment for over 500 participants annually.
                 </p>
               </div>
               
@@ -164,7 +164,7 @@ export default function Home() {
               <div className="flex flex-col items-center text-center">
                 <Dice5 size={120} className="text-[#ffffff] mb-4 sm:mb-6 sm:w-60 sm:h-60" strokeWidth={1.5} />
                 <p className="text-white text-base sm:text-lg leading-relaxed px-4">
-                  Interactive Systems Leadership<br />
+                  <em>Interactive Systems Leadership</em><br />
                   Directed multi-session collaborative design experiences emphasizing creative problem-solving, narrative
                   systems, and probabilistic balancing.
                   Applied agile project management to coordinate distributed teams and maintain consistent engagement
@@ -194,7 +194,7 @@ export default function Home() {
               
               {/* AWS */}
               <div className="flex flex-col items-center text-center">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" className="h-40 sm:h-65 w-auto shrink-0 inline-block" />
+                <img src="https://www.highvail.com/wp-content/uploads/2020/04/AWS-Logo-halfwhite.png" alt="AWS" className="h-40 sm:h-65 w-auto shrink-0 inline-block" />
                 <p className="text-white text-base sm:text-lg leading-relaxed px-4">
                   <strong><em>AWS Training and Certification</em></strong><br />
                   Foundational AWS Cloud Concepts<br />
