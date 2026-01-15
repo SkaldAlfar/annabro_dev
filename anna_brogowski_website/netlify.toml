@@ -1,8 +1,9 @@
-# Netlify configuration for Next.js
-
 [build]
+  base = "website"
   command = "npm run build"
-  publish = ".next"
+  publish = "out"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
