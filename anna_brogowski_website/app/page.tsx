@@ -160,13 +160,13 @@ export default function Home() {
               <div className="flex flex-col items-center text-center">
                 <Puzzle size={120} className="text-[#ffffff] mb-4 sm:mb-6 sm:w-60 sm:h-60" strokeWidth={1.5} />
                 <p className="text-white text-base sm:text-lg leading-relaxed px-4">
-                  <strong><em>VT Hun Puzzle Hunt Developer</em></strong><br />Developed interactive puzzles using Arduino and NVIDIA Jetson Nano for machine learning real-time object recognition challenges. Supported event logistics and puzzle deployment for over 500 participants annually.
+                  <strong><em>VT Hunt Puzzle Hunt Developer</em></strong><br />Developed interactive puzzles using Arduino and NVIDIA Jetson Nano for machine learning real-time object recognition challenges. Supported event logistics and puzzle deployment for over 500 participants annually.
                 </p>
               </div>
               
               {/* D&D */}
               <div className="flex flex-col items-center text-center">
-                <Dice5 size={120} className="text-[#ffffff] mb-4 sm:mb-6 sm:w-60 sm:h-60" strokeWidth={1.5} />
+                <Rocket size={120} className="text-[#ffffff] mb-4 sm:mb-6 sm:w-60 sm:h-60" strokeWidth={1.5} />
                 <p className="text-white text-base sm:text-lg leading-relaxed px-4">
                   <strong><em>Vertical Solar Array Technology Designer</em></strong><br />
                     Developed software and control systems for NASA-sponsored lunar surface solar deployment technology. Utilized Python, C++, sensors, and microcontrollers to prototype automated testing and deployment solutions. Earned Best in Track Award among more than 25 senior design teams.
@@ -184,7 +184,7 @@ export default function Home() {
               </div>
               {/* Cyberpunk TCG VR Platform */}
               <div className="flex flex-col items-center text-center">
-                <Rocket size={120} className="text-[#ffffff] mb-4 sm:mb-6 sm:w-60 sm:h-60" strokeWidth={1.5} />
+                <Dice5 size={120} className="text-[#ffffff] mb-4 sm:mb-6 sm:w-60 sm:h-60" strokeWidth={1.5} />
                 <p className="text-white text-base sm:text-lg leading-relaxed max-w-3xl px-4">
                   <strong><em>Cyberpunk TCG AR Platform</em></strong><br />
                   Immersive augmented reality platform for playing a cyberpunk-themed trading card game. Utilized Unreal Engine to create engaging gameplay with holographic card interaction in augmented reality. Currently in development with a focus on multiplayer functionality in the theme of a Cyberpunk future.
