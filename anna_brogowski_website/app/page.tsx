@@ -115,7 +115,7 @@ export default function Home() {
           <div className="relative w-full overflow-hidden">
             <div className="flex gap-10 sm:gap-20 animate-scroll whitespace-nowrap">
               {/* First set of icons */}
-              <img src="/unreal-engine-white-icon.svg" alt="Unreal Engine" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
+              <img src="/icons8-unreal-engine-500.png" alt="Unreal Engine" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ros/ros-original.svg" alt="ROS" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
@@ -123,14 +123,14 @@ export default function Home() {
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datadog/datadog-original.svg" alt="DataDog" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block invert" />
               <img src="https://docs.temporal.io/img/favicon.png" alt="Temporal" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
-              <img src="/icoins8-unity-500.png" alt="Unity" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
+              <img src="/icons8-unity-500.png" alt="Unity" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
               <img src="/nvidia_icon.png" alt="NVIDIA" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="Arduino" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="Agile" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" alt="CI/CD" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               
               {/* Duplicate set for seamless loop */}
-              <img src="/unreal-engine-white-icon.svg" alt="Unreal Engine" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
+              <img src="/icons8-unreal-engine-500.png" alt="Unreal Engine" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ros/ros-original.svg" alt="ROS" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
@@ -138,7 +138,7 @@ export default function Home() {
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datadog/datadog-original.svg" alt="DataDog" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block invert" />
               <img src="https://docs.temporal.io/img/favicon.png" alt="Temporal" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
-              <img src="/icoins8-unity-500.png" alt="Unity" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
+              <img src="/icons8-unity-500.png" alt="Unity" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
               <img src="/nvidia_icon.png" alt="NVIDIA" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="Arduino" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="Agile" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
