@@ -115,6 +115,7 @@ export default function Home() {
           <div className="relative w-full overflow-hidden">
             <div className="flex gap-10 sm:gap-20 animate-scroll whitespace-nowrap">
               {/* First set of icons */}
+              <img src="/unreal-engine-white-icon.svg" alt="Unreal Engine" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ros/ros-original.svg" alt="ROS" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
@@ -122,12 +123,14 @@ export default function Home() {
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datadog/datadog-original.svg" alt="DataDog" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block invert" />
               <img src="https://docs.temporal.io/img/favicon.png" alt="Temporal" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
+              <img src="/icoins8-unity-500.svg" alt="Unity" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
               <img src="/nvidia_icon.png" alt="NVIDIA" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="Arduino" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="Agile" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" alt="CI/CD" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               
               {/* Duplicate set for seamless loop */}
+              <img src="/unreal-engine-white-icon.svg" alt="Unreal Engine" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ros/ros-original.svg" alt="ROS" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
@@ -135,6 +138,7 @@ export default function Home() {
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datadog/datadog-original.svg" alt="DataDog" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block invert" />
               <img src="https://docs.temporal.io/img/favicon.png" alt="Temporal" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
+              <img src="/icoins8-unity-500.svg" alt="Unity" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
               <img src="/nvidia_icon.png" alt="NVIDIA" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="Arduino" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="Agile" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
@@ -156,7 +160,7 @@ export default function Home() {
               <div className="flex flex-col items-center text-center">
                 <Puzzle size={120} className="text-[#ffffff] mb-4 sm:mb-6 sm:w-60 sm:h-60" strokeWidth={1.5} />
                 <p className="text-white text-base sm:text-lg leading-relaxed px-4">
-                  <strong><em>VT Hunt</em></strong><br />Developed interactive puzzles using Arduino and NVIDIA Jetson Nano for machine learning real-time object recognition challenges. Supported event logistics and puzzle deployment for over 500 participants annually.
+                  <strong><em>VT Hun Puzzle Hunt Developer</em></strong><br />Developed interactive puzzles using Arduino and NVIDIA Jetson Nano for machine learning real-time object recognition challenges. Supported event logistics and puzzle deployment for over 500 participants annually.
                 </p>
               </div>
               
@@ -164,22 +168,27 @@ export default function Home() {
               <div className="flex flex-col items-center text-center">
                 <Dice5 size={120} className="text-[#ffffff] mb-4 sm:mb-6 sm:w-60 sm:h-60" strokeWidth={1.5} />
                 <p className="text-white text-base sm:text-lg leading-relaxed px-4">
-                  <strong><em>Interactive Systems Leadership</em></strong><br />
-                  Directed multi-session collaborative design experiences emphasizing creative problem-solving, narrative
-                  systems, and probabilistic balancing.
-                  Applied agile project management to coordinate distributed teams and maintain consistent engagement
-                  metrics across multi-month project.
+                  <strong><em>Vertical Solar Array Technology Designer</em></strong><br />
+                    Developed software and control systems for NASA-sponsored lunar surface solar deployment technology. Utilized Python, C++, sensors, and microcontrollers to prototype automated testing and deployment solutions. Earned Best in Track Award among more than 25 senior design teams.
                 </p>
               </div>
             </div>
             {/* Percolate Coffee App */}
-          <div className="flex flex-col items-center text-center mt-8 sm:mt-16">
-            <Coffee size={120} className="text-[#ffffff] mb-4 sm:mb-6 sm:w-60 sm:h-60" strokeWidth={1.5} />
-            <p className="text-white text-base sm:text-lg leading-relaxed max-w-3xl px-4">
-             <strong><em>Percolate Coffee App</em></strong><br />
-                  Self-driven project to develop a mobile application that helps users track their coffee habits, discover local coffee shops, improve their critical thinking by playing puzzles, and increase their awareness of their environmental impact through sustainable coffee consumption. Currently in development with React Native.
-            </p>
-          </div>
+            <div className="flex flex-col items-center text-center mt-8 sm:mt-16">
+              <Coffee size={120} className="text-[#ffffff] mb-4 sm:mb-6 sm:w-60 sm:h-60" strokeWidth={1.5} />
+              <p className="text-white text-base sm:text-lg leading-relaxed max-w-3xl px-4">
+              <strong><em>Percolate Coffee App</em></strong><br />
+                    Self-driven project to develop a mobile application that helps users track their coffee habits, discover local coffee shops, improve their critical thinking by playing puzzles, and increase their awareness of their environmental impact through sustainable coffee consumption. Currently in development with React Native.
+              </p>
+            </div>
+            {/* Cyberpunk TCG VR Platform */}
+            <div className="flex flex-col items-center text-center mt-8 sm:mt-16">
+              <Rocket size={120} className="text-[#ffffff] mb-4 sm:mb-6 sm:w-60 sm:h-60" strokeWidth={1.5} />
+              <p className="text-white text-base sm:text-lg leading-relaxed max-w-3xl px-4">
+                <strong><em>Cyberpunk TCG AR Platform</em></strong><br />
+                Immersive augmented reality platform for playing a cyberpunk-themed trading card game. Utilized Unreal Engine to create engaging gameplay with holographic card interaction in augmented reality. Currently in development with a focus on multiplayer functionality in the theme of a Cyberpunk future.
+              </p>
+            </div>
           </div>
         </div>
       </section>
