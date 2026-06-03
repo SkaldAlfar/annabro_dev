@@ -123,7 +123,7 @@ export default function Home() {
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datadog/datadog-original.svg" alt="DataDog" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block invert" />
               <img src="https://docs.temporal.io/img/favicon.png" alt="Temporal" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
-              <img src="/icoins8-unity-500.svg" alt="Unity" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
+              <img src="/icoins8-unity-500.png" alt="Unity" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
               <img src="/nvidia_icon.png" alt="NVIDIA" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="Arduino" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="Agile" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
@@ -138,7 +138,7 @@ export default function Home() {
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datadog/datadog-original.svg" alt="DataDog" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block invert" />
               <img src="https://docs.temporal.io/img/favicon.png" alt="Temporal" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
-              <img src="/icoins8-unity-500.svg" alt="Unity" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
+              <img src="/icoins8-unity-500.png" alt="Unity" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
               <img src="/nvidia_icon.png" alt="NVIDIA" className="h-12 w-12 sm:h-20 sm:w-20 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="Arduino" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="Agile" className="h-12 w-10 sm:h-20 sm:w-16 shrink-0 inline-block" />
@@ -173,21 +173,23 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            {/* Percolate Coffee App */}
-            <div className="flex flex-col items-center text-center mt-8 sm:mt-16">
-              <Coffee size={120} className="text-[#ffffff] mb-4 sm:mb-6 sm:w-60 sm:h-60" strokeWidth={1.5} />
-              <p className="text-white text-base sm:text-lg leading-relaxed max-w-3xl px-4">
-              <strong><em>Percolate Coffee App</em></strong><br />
-                    Self-driven project to develop a mobile application that helps users track their coffee habits, discover local coffee shops, improve their critical thinking by playing puzzles, and increase their awareness of their environmental impact through sustainable coffee consumption. Currently in development with React Native.
-              </p>
-            </div>
-            {/* Cyberpunk TCG VR Platform */}
-            <div className="flex flex-col items-center text-center mt-8 sm:mt-16">
-              <Rocket size={120} className="text-[#ffffff] mb-4 sm:mb-6 sm:w-60 sm:h-60" strokeWidth={1.5} />
-              <p className="text-white text-base sm:text-lg leading-relaxed max-w-3xl px-4">
-                <strong><em>Cyberpunk TCG AR Platform</em></strong><br />
-                Immersive augmented reality platform for playing a cyberpunk-themed trading card game. Utilized Unreal Engine to create engaging gameplay with holographic card interaction in augmented reality. Currently in development with a focus on multiplayer functionality in the theme of a Cyberpunk future.
-              </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 mb-12 sm:mb-16">
+              {/* Percolate Coffee App */}
+              <div className="flex flex-col items-center text-center">
+                <Coffee size={120} className="text-[#ffffff] mb-4 sm:mb-6 sm:w-60 sm:h-60" strokeWidth={1.5} />
+                <p className="text-white text-base sm:text-lg leading-relaxed max-w-3xl px-4">
+                  <strong><em>Percolate Coffee App</em></strong><br />
+                  Self-driven project to develop a mobile application that helps users track their coffee habits, discover local coffee shops, improve their critical thinking by playing puzzles, and increase their awareness of their environmental impact through sustainable coffee consumption. Currently in development with React Native.
+                </p>
+              </div>
+              {/* Cyberpunk TCG VR Platform */}
+              <div className="flex flex-col items-center text-center">
+                <Rocket size={120} className="text-[#ffffff] mb-4 sm:mb-6 sm:w-60 sm:h-60" strokeWidth={1.5} />
+                <p className="text-white text-base sm:text-lg leading-relaxed max-w-3xl px-4">
+                  <strong><em>Cyberpunk TCG AR Platform</em></strong><br />
+                  Immersive augmented reality platform for playing a cyberpunk-themed trading card game. Utilized Unreal Engine to create engaging gameplay with holographic card interaction in augmented reality. Currently in development with a focus on multiplayer functionality in the theme of a Cyberpunk future.
+                </p>
+              </div>
             </div>
           </div>
         </div>
